@@ -1,4 +1,4 @@
-# 🏀 Rotowire NBA ROY Odds Archive
+# 🏀 Rotowire NBA ROY Archivo de Cuotas
 
 Este repositorio **recopila y archiva automáticamente las cuotas diarias del Rookie of the Year (ROY)** de la NBA publicadas por [RotoWire](https://www.rotowire.com/betting/nba/rookie-odds.php).  
 Los datos se almacenan en formato CSV mediante un flujo automatizado de **GitHub Actions**.
@@ -25,14 +25,6 @@ Los datos se almacenan en formato CSV mediante un flujo automatizado de **GitHub
 4. Ejecuta el script `get_roy_odds.R`, que descarga y guarda los datos actualizados.  
 5. Hace commit y push de los nuevos CSV al repositorio, manteniendo un registro completo de la evolución de las cuotas.
 
----
-
-## 📂 Estructura del repositorio
-
-├── get_roy_odds.R # Script R que obtiene y guarda los datos
-├── data/ # CSVs diarios (roy_odds_YYYY_MM_DD.csv)
-└── .github/
-└── workflows/ # Archivo YAML con la configuración de GitHub Actions
 
 ---
 
