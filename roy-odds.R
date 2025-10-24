@@ -18,4 +18,4 @@ df <- result %>%
   mutate(date = today)
 
 # write dataframe to .csv in a folder called "data/"
-write.csv(df, paste0("data/mvp_odds_", gsub("-", "_", today), ".csv"), row.names = F)
+write.csv(df, paste0("data/roy_odds_", gsub("-", "_", today), ".csv"), row.names = F)
