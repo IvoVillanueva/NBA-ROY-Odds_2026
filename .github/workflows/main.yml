@@ -6,7 +6,7 @@ on:
     - cron: '30 8 * * *'
 
 jobs:
-  Get-NBA-MVP-Odds:
+  Get-NBA-ROY-Odds:
     name: Actualizar cuotas del ROY 
     runs-on: ubuntu-latest
     env:
@@ -44,7 +44,7 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add data/mvp_odds*.csv
-          git diff --cached --quiet || git commit -m "Auto-update: mvp odds"
+          git diff --cached --quiet || git commit -m "Auto-update: roy odds"
         shell: bash
 
       - name: Push changes
